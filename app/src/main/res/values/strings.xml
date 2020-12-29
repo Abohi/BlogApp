@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">TopApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_profile_single">ProfileSingleActivity</string>
+    <string name="post_desc_hint">Add New Post</string>
+    <string name="new_post_btn_hint">Post</string>
+    <string name="logout">Logout</string>
+    <string name="single_post_username">User Name</string>
+    <string name="single_post_time">Time</string>
+    <string name="post_descp">SinglePostDesc</string>
+    <string name="commentHint">Comment on this post</string>
+    <string name="comment_post">POST</string>
+    <string name="title_activity_group__chat_">Group_Chat_Activity</string>
+    <string name="sendMessage">Send Message</string>
+    <string name="btn_back"><![CDATA[<<<]]></string>
+    <string name="hint_email">Change Email</string>
+    <string name="lbl_forgot_password">Forgot Password</string>
+    <string name="forgot_password_msg">We will be sending a password reset instruction to the email associated with this account</string>
+    <string name="btn_reset_password">Click to reset password</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="hint_mail">Email</string>
+    <string name="err_email">Please enter a valid email</string>
+    <string name="err_password">Password Incorrect</string>
+    <string name="err_password_confirmation">Please reenter the password</string>
+    <string name="searchonpost">Search on posts</string>
+    <string name="err_passwor">Password Incorrect</string>
+</resources>

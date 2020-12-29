@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.evansabohi.com.top">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name=".Top">
+        <activity
+            android:name=".account.Login"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".user_profile.UserProfile_View"/>
+        <activity
+            android:name=".account.Register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".account.SetUpActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity android:name=".user_profile.ProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".user_profile.ProfileSingleActivity"
+            android:label="@string/title_activity_profile_single"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".mainpage_fragments.ProgressActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".new_post.BlogPostScreen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".new_post.SinglePostScreen" />
+        <activity
+            android:name=".goup_chat.Owaneast_Group_Chat_Activity"
+            android:label="@string/title_activity_group__chat_"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".goup_chat.Group_Chat_Activity"
+            android:label="@string/title_activity_group__chat_"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".account.UpdateProfile"
+            android:label="@string/title_activity_group__chat_"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".goup_chat.Owan_Group_Chat_Activity"
+            android:label="@string/title_activity_group__chat_"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".account_settings.ChangedPassword"/>
+        <activity android:name=".account_settings.ChangeEmail"/>
+        <activity android:name=".account_settings.ForgotPassword"/>
+        <activity android:name=".about.EvansActivity"/>
+        <activity android:name=".new_post.BlogPostSearch"
+            android:label="@string/searchonpost"/>
+    </application>
+
+</manifest>

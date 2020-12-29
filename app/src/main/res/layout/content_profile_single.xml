@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_comment"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.evansabohi.com.top.user_profile.ProfileSingleActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="200dp"
+           android:scaleType="centerCrop"
+           android:id="@+id/profCover"
+           android:src="@drawable/hompagescreen"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-50dp"
+            android:src="@drawable/topprofile"
+            android:id="@+id/profPhoto"
+            android:background="@drawable/category_background1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/urAge"
+            android:text="Age"
+            android:textColor="#000"
+            android:layout_marginTop="-50dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="17dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userName"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:text="Post Name"
+            android:textColor="#000"
+            android:textSize="15dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userNatvie"
+            android:text="Native Name"
+            android:textColor="#000"
+            android:layout_marginLeft="20dp"
+            android:textSize="15dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:id="@+id/userDesc"
+            android:text="Your Info"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:background="@drawable/category_background2"
+            android:textSize="17dp"/>
+        <Button
+            android:id="@+id/selectcover"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_gravity="end"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_background"
+
+            android:textColor="#000"
+            android:text="Select Cover Photo"
+            android:textAllCaps="false"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+</ScrollView>

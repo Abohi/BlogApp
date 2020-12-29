@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1e7a8f</color>
+    <color name="colorPrimaryDark">#104c70</color>
+    <color name="colorAccent">#a1a2a3</color>
+    <color name="text_color_light">#f5f2f3</color>
+    <color name="text_color_dart">#efd1db</color>
+    <color name="text_color">#fff4f8</color>
+    <!--<color name="progress_primary">#fff</color>-->
+    <color name="progress_primary">@color/white</color>
+    <color name="progress_secondary">@color/gray_scale</color>
+    <color name="progress_max_active">@color/white</color>
+
+    <color name="gray_scale">#8affffff</color>
+    <color name="white">#fff</color>
+
+    <color name="bggold">#731e7a8f</color>
+    <color name="bgred">#89ffffff</color>
+
+    <color name="black">#000000</color>
+</resources>

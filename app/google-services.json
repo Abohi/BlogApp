@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "405846370529",
+    "firebase_url": "https://topapp-a7c6b.firebaseio.com",
+    "project_id": "topapp-a7c6b",
+    "storage_bucket": "topapp-a7c6b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405846370529:android:f7160745b2f00e1a",
+        "android_client_info": {
+          "package_name": "com.evansabohi.com.top"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405846370529-rh5rdi64n3ugn6ok270h7jsc0lktkqru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMPSmsN6MovLfHjUXu8Iq5shd6XOU4PqM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

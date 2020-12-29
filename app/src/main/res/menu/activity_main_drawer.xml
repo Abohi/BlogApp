@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_setup"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Update Your Profile" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@mipmap/ic_account_box_black_24dp"
+            android:title="Users Profile" />
+        <item
+            android:id="@+id/nav_changemail"
+            android:icon="@mipmap/ic_email_black_24dp"
+            android:title="Change Email" />
+        <item
+            android:id="@+id/nav_changepass"
+            android:icon="@mipmap/ic_https_black_24dp"
+            android:title="Change Password" />
+        <item
+            android:id="@+id/nav_myprofile"
+            android:icon="@mipmap/ic_account_box_black_24dp"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Search On Post" />
+    </group>
+
+    <item android:title="Top">
+        <menu>
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@mipmap/ic_account_box_black_24dp"
+                android:title="About App" />
+        </menu>
+    </item>
+
+</menu>
